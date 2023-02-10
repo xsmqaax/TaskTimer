@@ -1,10 +1,10 @@
 import './App.css';
-import { MainContainer } from './Components/MainContainer';
+import { Welcoming } from './Components/Welcoming'
 
 function App() {
   return (
     <div className="App">
-      <MainContainer />
+      <Welcoming />
     </div>
   );
 }
