@@ -5,7 +5,31 @@
 }
 
 .main {
-    background-color: white;
-    width: 80%;
-    height: 90%;
+    width: 1160px;
+    height: 610px;
+    margin-top: 90px;
+
+}
+
+.header-name {
+    width: 90%;
+    height: 70px;
+    padding: 4px;
+    margin: 4px;
+
+}
+
+.grid-container {
+    display: flex;
+    height: 10%;
+}
+
+.for-newTask {
+    flex: 30%;
+    padding: 10px;
+}
+
+.for-TaskBoard {
+    flex: 60%;
+    padding: 10px;
 }
