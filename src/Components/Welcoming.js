@@ -15,7 +15,7 @@ export function Welcoming() {
             </div>
 
             <div className='divs container-sm'>
-                <button type='submit' className='start-btn'>ابدأ</button>
+                <button type='submit' className='start-btn' >ابدأ</button>
             </div>
 
         </div>

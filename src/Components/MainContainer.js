@@ -4,12 +4,15 @@ import {TaskBoard} from './TaskBoard';
 export function MainContainer() {
     const name = "سعد"
     return (
-        <div className='main'>
-            <div className='header-name'><h1>مهام {name} اليومية</h1></div>
-            <div className='grid-container'>
-                <div className='for-newTask'>   <NewTask /> </div>
-                <div className='for-TaskBoard'>   </div>
+        <div className='main container-sm'>
+
+            <div className='row main-row'>
+
+                <div className='col-sm-3 right-col'>  </div>
+                <div className='col-sm-6 left-col'> </div>
             </div>
+
+
         </div>
     );
 }
