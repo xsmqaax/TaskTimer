@@ -1,0 +1,16 @@
+body {
+    font-family: 'Tajawal', sans-serif; 
+
+}
+
+.make-task {
+    padding: 20px;
+}
+.tasks-top-label {
+    border: none;
+    border-bottom: 0.3px solid turquoise;
+}
+
+.tasks-top-label h1 {
+    font-size: 1.5rem;
+}

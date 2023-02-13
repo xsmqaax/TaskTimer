@@ -1,15 +1,21 @@
 import '../Styles/mainContainer.css';
 import { NewTask } from './NewTask';
 import {TaskBoard} from './TaskBoard';
+
 export function MainContainer() {
     const name = "سعد"
     return (
         <div className='main container-sm'>
+            
+            
 
-            <div className='row main-row'>
+            <div className='top-row row'>
+                <div className='col'>مهام {name} اليومية <img src='./Images/tasks-icon.png'></img></div>
+            </div>
+            <div className='main-row row'>
 
-                <div className='col-sm-3 right-col'>  </div>
-                <div className='col-sm-6 left-col'> </div>
+                <div className='right-col col-12 col-md-4'> <NewTask />  </div>
+                <div className='left-col col-12 col-md-8'> left</div>
             </div>
 
 
