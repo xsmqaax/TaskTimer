@@ -14,8 +14,8 @@ export function MainContainer() {
             </div>
             <div className='main-row row'>
 
-                <div className='right-col col-12 col-md-3'> <NewTask />  </div>
-                <div className='left-col col-12 col-md-9'> <TaskBoard /> </div>
+                <div className='right-col col-8 col-md-3'> <NewTask />  </div>
+                <div className='left-col col-8 col-md-9'> <TaskBoard /> </div>
             </div>
 
 
