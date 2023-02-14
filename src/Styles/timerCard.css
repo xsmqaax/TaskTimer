@@ -1,0 +1,18 @@
+.main-div {
+    border-radius: 10px;
+    height: 155px;
+
+    
+}
+.top-row{
+    padding: 3px;
+}
+
+.counter-min {
+    font-size: 1rem;
+}
+
+.top-row .total-min {
+    font-size: 1rem;
+    color: lightgray;
+}

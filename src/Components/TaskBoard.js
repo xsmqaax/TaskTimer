@@ -19,10 +19,10 @@ export function TaskBoard(){
             <div className='main-row row'>
 
                 <div className='right-col col-12 col-md-3'> 
-                    <button type="button" className="btn btn-success"> إبدأ</button>
+                    <button type="button" className="tem-start-btn btn btn-outline-warning"> إيقاف مؤقت</button>
                  </div>
                 <div className='left-col col-12 col-md-3'>  
-                    <button type="button" className="btn btn-danger"> إيقاف</button>
+                    <button type="button" className="stop-end-btn btn btn-danger"> إيقاف</button>
                 </div>
             </div>
         </div>

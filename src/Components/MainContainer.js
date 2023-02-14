@@ -10,7 +10,7 @@ export function MainContainer() {
             
 
             <div className='top-row row'>
-                <div className='col'>مهام {name} اليومية <img src='./Images/tasks-icon.png'></img></div>
+                <div className='col'>مهام {name} اليومية </div>
             </div>
             <div className='main-row row'>
 

@@ -17,9 +17,9 @@ export function NewTask() {
                 <input type="text" className="form-control" id="formGroupExampleInput2" placeholder="" />
             </div>
             
-            <div className="mb-3">
+            <div className="mb-3 position-parent">
             <button type="button" className="btn btn-success">إضافة</button>
-            <button type="button" className="btn btn-outline-secondary">مسح</button>
+            <button type="button" className="btn btn-outline-secondary clear-btn-position">مسح</button>
             </div>
        </div>
     );
