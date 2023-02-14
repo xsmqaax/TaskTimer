@@ -4,7 +4,9 @@ html body {
 
 .main {
     
-    border: 1px solid black;
+    border: 0.3px solid black;
+    border-radius: 10px;
+    
 }
 .top-row{
     padding: 10px;
@@ -19,12 +21,11 @@ html body {
 }
 
 .right-col {
-    border: 1px solid rebeccapurple;
+
     height: fit-content;
     
 }
 
 .left-col {
-    border: 1px solid rebeccapurple;
     height: fit-content;
 }

@@ -1,6 +1,6 @@
 import '../Styles/mainContainer.css';
 import { NewTask } from './NewTask';
-import {TaskBoard} from './TaskBoard';
+import { TaskBoard } from './TaskBoard';
 
 export function MainContainer() {
     const name = "سعد"
@@ -14,8 +14,8 @@ export function MainContainer() {
             </div>
             <div className='main-row row'>
 
-                <div className='right-col col-12 col-md-4'> <NewTask />  </div>
-                <div className='left-col col-12 col-md-8'> left</div>
+                <div className='right-col col-12 col-md-3'> <NewTask />  </div>
+                <div className='left-col col-12 col-md-9'> <TaskBoard /> </div>
             </div>
 
 
